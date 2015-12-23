@@ -1,7 +1,7 @@
 html, body {
 	width: 100%;
 	height: 100%;
-	margin: 0 auto -50em auto;
+	margin: 0;
 	color: rgb(63,69,91);
 }
 /** {
@@ -15,17 +15,34 @@ html, body {
 	margin-bottom: 1.3em;
 }
 .number {
-	padding: .3em;
+	padding-top: 2.5em;
 	text-decoration: underline;
+	text-align: right;
 }
 img { 
 	max-width: 100%;
 	height: auto;
 	width: auto\9; /* ie8 */
 }
+.checks {
+	margin-top: .5em;
+	margin-left: 1.2em;
+	padding-top: 7.5em;
+}
+.checks > p {
+	margin-top: -6.5em;
+	font-size: 1.3em;
+	text-align: left;
+}
+.checkMarks {
+	margin-top: .7em;
+}
+.logos {
+	margin-top: 3.2em;
+	
+}
 p {
-	font-size: 2.7em;
-	text-align: center;
+	font-size: 2.3em;
 	color: rgb(18,80,137);
 }
 b {
@@ -34,16 +51,26 @@ b {
 .thumbnail {
 	box-shadow: none;
 }
+.imageContainer {
+	width: 10em;
+}
 form { 
 	background: rgb(232,233,228);
 	border-top: .25em solid rgb(235,47,1);
 	margin: 0 auto;
 	width: 22em;
-	padding-top: .5em;
+	padding: .6em;
+	margin-top:1.5em;
+}
+form  p {
+	font-size: 1.5em;
+	text-align: center;
+	margin-bottom: -.5em;
 }
 .inputForm {
 	border-radius: .5em;
 	background-color: rgb(255,255,255);
+	margin-bottom: -1.2em;
 }
 select {
 	background: url(select-arrow.jpg) no-repeat right;
@@ -56,11 +83,11 @@ select {
 	font-size:.9em;
 	text-align: center;
 	line-height: 1em;
-	margin: 2em auto 1em auto;
+	margin: 2em auto 3em auto;
 }
 
 /*tablet*/
-@media screen and (min-width: 768px) {
+/*/*/*/*@media screen and (min-width: 768px) {
 	.number {
 		padding-top:2em;
 		margin-right: 2em;
@@ -93,7 +120,7 @@ select {
 }
 
 /*Desktop*/
-@media screen and (min-width: 1200px) {
+/*@media screen and (min-width: 1200px) {
 	
 	.imageContainer {
 		position: relative;
@@ -127,4 +154,5 @@ select {
 		margin-top: -50em;
 	}
 
-
+*/
+*/*/*/*/
